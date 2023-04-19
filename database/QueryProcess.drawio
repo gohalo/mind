@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-04-07T03:43:44.332Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="F4iMKq3d3E7iYyA1tHaz" version="21.1.4" type="github">
+  <diagram name="基本概念" id="AZTZRx74pj3jYieRCADd">
+    <mxGraphModel dx="1076" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rRFdQ_skFhBrsX-KUEJw-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;select (`sigma`)&amp;nbsp; 从关系中选择限定条件的元组，对应where条件&lt;br&gt;project (`pi`)&amp;nbsp; 从关系中选择指定列&lt;br&gt;product (`xx`)&amp;nbsp; 两个关系的笛卡尔积&lt;br&gt;union (`uu`)&amp;nbsp; 两个表的并集&lt;br&gt;intersect (`nn`)&amp;nbsp; 两个表的交集&lt;br&gt;difference (`-`) 两个表异的集合&lt;br&gt;join (`Pi`) 通过共同属性联结两个表，先计算笛卡尔积，过滤出满足条件数据，去掉重复数据&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="1170" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="rRFdQ_skFhBrsX-KUEJw-2" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;`sigma`&lt;/font&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;value &amp;gt; 100&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="380" y="560" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rRFdQ_skFhBrsX-KUEJw-3" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;`pi`&lt;/font&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;R.id, S.cdate&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rRFdQ_skFhBrsX-KUEJw-4" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;\(\Join\)&lt;/font&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; R.id=S.id&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="450" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rRFdQ_skFhBrsX-KUEJw-5" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b style=&quot;&quot;&gt;SELECT&amp;nbsp; &lt;/b&gt;R.id, S.cdate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;b&gt;FROM&amp;nbsp; &lt;/b&gt;R &lt;b&gt;JOIN &lt;/b&gt;S&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;ON&amp;nbsp; &lt;/b&gt;R.id = S.id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b style=&quot;&quot;&gt;WHERE&amp;nbsp; &lt;/b&gt;S.value &amp;gt; 100&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rRFdQ_skFhBrsX-KUEJw-6" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;`S`&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="410" y="690" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rRFdQ_skFhBrsX-KUEJw-7" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;`R`&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="690" width="155" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rRFdQ_skFhBrsX-KUEJw-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.607;exitY=-0.009;exitDx=0;exitDy=0;entryX=0.151;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="rRFdQ_skFhBrsX-KUEJw-7" target="rRFdQ_skFhBrsX-KUEJw-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="670" as="sourcePoint" />
+            <mxPoint x="400" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rRFdQ_skFhBrsX-KUEJw-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rRFdQ_skFhBrsX-KUEJw-6" target="rRFdQ_skFhBrsX-KUEJw-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="204" y="699" as="sourcePoint" />
+            <mxPoint x="317" y="523" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rRFdQ_skFhBrsX-KUEJw-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.427;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="rRFdQ_skFhBrsX-KUEJw-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="570" as="sourcePoint" />
+            <mxPoint x="510" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rRFdQ_skFhBrsX-KUEJw-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.223;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rRFdQ_skFhBrsX-KUEJw-4" target="rRFdQ_skFhBrsX-KUEJw-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="204" y="699" as="sourcePoint" />
+            <mxPoint x="313" y="521" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

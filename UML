@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2020-12-19T15:53:49.106Z" agent="5.0 (X11)" etag="SgM6smGf2Ed8BbLFeABJ" version="14.1.0" type="github">
+  <diagram id="WKdDJ3M4bKxFQnngHHpT" name="Page-1">
+    <mxGraphModel dx="677" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cSAGXtPIEeWc2PFfnpqX-1" value="A" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="203" y="32" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cSAGXtPIEeWc2PFfnpqX-3" value="B" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="433" y="32" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cSAGXtPIEeWc2PFfnpqX-4" value="A继承B" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1">
+          <mxGeometry x="203" y="32" width="160" as="geometry">
+            <mxPoint x="293" y="52" as="sourcePoint" />
+            <mxPoint x="433" y="51.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cSAGXtPIEeWc2PFfnpqX-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="202" y="94" width="320" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="cSAGXtPIEeWc2PFfnpqX-15" value="A" style="html=1;" vertex="1" parent="cSAGXtPIEeWc2PFfnpqX-20">
+          <mxGeometry y="1" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cSAGXtPIEeWc2PFfnpqX-16" value="B" style="html=1;" vertex="1" parent="cSAGXtPIEeWc2PFfnpqX-20">
+          <mxGeometry x="230" y="1" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cSAGXtPIEeWc2PFfnpqX-18" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;shadow=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cSAGXtPIEeWc2PFfnpqX-20" source="cSAGXtPIEeWc2PFfnpqX-15" target="cSAGXtPIEeWc2PFfnpqX-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="78" y="76" as="sourcePoint" />
+            <mxPoint x="238" y="76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cSAGXtPIEeWc2PFfnpqX-19" value="&lt;font style=&quot;font-size: 11px&quot;&gt;A实现B&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="cSAGXtPIEeWc2PFfnpqX-20">
+          <mxGeometry x="136" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cSAGXtPIEeWc2PFfnpqX-22" value="A" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="202" y="156" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cSAGXtPIEeWc2PFfnpqX-23" value="B" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="156" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cSAGXtPIEeWc2PFfnpqX-24" value="A继承B" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1">
+          <mxGeometry x="202" y="156" width="160" as="geometry">
+            <mxPoint x="292" y="176" as="sourcePoint" />
+            <mxPoint x="432" y="175.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" modified="2022-07-21T00:46:42.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="n23joTgn7Lu5UWQnRZF_" version="20.0.4" type="github">
+  <diagram id="_RZjaFIsZOrcuMt8UNB1" name="Page-1">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wggnnf6dBLECvWs-4oFh-1" value="Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="60" width="80" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="430" as="sourcePoint" />
+            <mxPoint x="200" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-2" value="node.pendingProposals" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="440" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-3" value="node.incomingProposals" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="400" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-4" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="440" as="sourcePoint" />
+            <mxPoint x="120" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-5" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="450" as="sourcePoint" />
+            <mxPoint x="120" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="460" as="sourcePoint" />
+            <mxPoint x="120" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-7" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="470" as="sourcePoint" />
+            <mxPoint x="120" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-8" value="客户端提交请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="380" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-9" value="在handleProposals()中会转给handleLeaderPropose()(实际有效)处理&lt;br&gt;通过raft.appendEntries()保存内存，然后发送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="264" y="400" width="266" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-10" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="430" as="sourcePoint" />
+            <mxPoint x="670" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-11" value="raft.msgs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="570" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-12" value="在node.sendRaftMessage()中实际调用&lt;br&gt;NodeHost.sendMessage()发送数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="560" y="490" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-13" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="535" as="sourcePoint" />
+            <mxPoint x="670" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-14" value="在messageHandler.HandleMessageBatch()中&lt;br&gt;会根据类型分别处理，有些数据是可以丢弃&lt;br&gt;注意，同时会根据集群进行消息路由" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="545" y="585" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-15" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="632" as="sourcePoint" />
+            <mxPoint x="670" y="672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-16" value="在node.handleReceivedMessages()中会读取&lt;br&gt;消息队列中的内容通过 raft.Handle() 逐条处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="545" y="680" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yg_7XLVXZfCwcMIYdxKa-17" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="730" as="sourcePoint" />
+            <mxPoint x="540" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKbaW5GT4yezES_nGabE-1" value="通过两级Hash快速查找" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="470" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
