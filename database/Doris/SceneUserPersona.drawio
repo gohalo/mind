@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2023-06-03T01:56:18.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.3" etag="VqYO_14Vlg4Ma6SFhrs6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-03T08:24:16.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="G_YHnNzeh_O4rjQLC6o9" version="21.3.3" type="github">
   <diagram name="第 1 页" id="qy3QJg3qFu5Nli9RCpi3">
-    <mxGraphModel>
+    <mxGraphModel dx="1685" dy="1055" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="260" width="180" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;行为数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;属性数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;交易数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="500" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-6" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;人群预估&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-7" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;人群查看&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-8" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;人群圈选&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-9" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;人群洞察&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;画像&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-13" value="数据采集和处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="640" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-14" value="数据存储和分析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="710" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-15" value="数据应用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="760" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="430" width="290" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-17" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;事件分析&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-18" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;归因分析&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="540" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-19" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;留存分析&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-20" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;漏斗分析&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-21" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;画像&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-22" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;路径分析&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="600" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-23" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;分布分析&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="600" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-24" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;A/B测试&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-25" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;产品迭代&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="440" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gGGDDeubDuHCSQO_FUlP-26" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;精细化运营&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="585" width="120" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
